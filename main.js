@@ -73,7 +73,21 @@ function question5 () {
   }
 }
 
-
+//   alternate solution using nested loops
+//    for (let i = 0; i < data.length; i++) {
+//     let product = data[i]
+//
+//     if (product.materials.length >= 8) {
+//       console.log(product.title + ' has ' + product.materials.length + ' materials: ');
+//     }
+//
+//     for (let j = 0; j < product.materials.length; j++) {
+//       if (product.materials.length >= 8) {
+//         console.log('- ' + product.materials[j]);
+//       }
+//     }
+//   }
+// }
 // 6: How many items were made by their sellers?
 // Answer:
 function question6 () {
